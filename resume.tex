@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -105,30 +105,21 @@
 
 \begin{document}
 
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
+%\begin{center}
+%    \textbf{\Huge \scshape Rui Figueiredo} \\ \vspace{1pt}
+%    \small 123-456-7890 $|$ \href{mailto:rui@fgf.pt}{\underline{rui@fgf.pt}} $|$ 
+%    \href{https://www.linkedin.com/in/rui-fgf/}{\underline{linkedin.com/in/rui-fgf}} $|$
+%    \href{https://rui.fgf.pt/}{\underline{rui.fgf.pt}}
+%\end{center}
 
 \begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/jake}}
+    \textbf{\Huge \scshape Rui Figueiredo} \\ \vspace{1pt}
+    \underline{rui@fgf.pt} $|$ 
+    \href{https://www.linkedin.com/in/rui-fgf/}{\underline{linkedin.com/in/rui-fgf}} $|$
+    \href{https://rui.fgf.pt/}{\underline{rui.fgf.pt}}
 \end{center}
 
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
-  \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
@@ -136,12 +127,57 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {Experienced Senior Consultant $|$ Data Analyst}{2025 -- Present}
+      {Deloitte $|$ (client firm B)}{Lisbon, Portugal}
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        \resumeItem{Developed ETL and BI processes with broad usage of Azure/Databricks stack}
+        \resumeItem{Gather insights from data regarding UX/UI/CX (mostly Google Analytics) and design data pipelines to build dashboards to monitor said insights}
+        \resumeItem{Client-embeded role, I work within a client team}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Data Engineering Consultant}{2023 -- 2025}
+      {Deloitte $|$ (client firm A)}{Lisbon, Portugal}
+      \resumeItemListStart
+        \resumeItem{Developed ETL and BI processes with broad usage of Azure/Databricks stack}
+        \resumeItem{From defining business needs with sponsors to implementation and testing}
+        \resumeItem{Design and implementation of pipelines for new work streams and improvement of existing ones}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Data Engineering Consultant}{2022 -- 2023}
+      {Deloitte $|$ (client firm A)}{Lisbon, Portugal}
+      \resumeItemListStart
+        \resumeItem{Migrated approx. 100 processes from SAS to Azure/Databricks stack}
+        \resumeItem{Developed new code to mirror previous processes, compare results, suggest improvements in ETL performance, documentation, code and data structure}
+        \resumeItem{Client-facing role, I was part of a team working on the client site everyday}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Data Scientist}{2021 -- 2022}
+      {Closer Consulting}{Lisbon, Portugal}
+      \resumeItemListStart
+        \resumeItem{Developed in-house solutions for Industry 4.0 areas including optimization algorithms and demand forecasting}
+        \resumeItem{Main work done in python with SQL data warehouse and ancillary work such as using Flask to develop a webservice to serve said projects}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Data Engineering Consultant}{2019 -- 2021}
+      {Novo Banco $|$ Closer Consulting}{Lisbon, Portugal}
+      \resumeItemListStart
+        \resumeItem{Data processing and reporting in Financial Services}
+        \resumeItem{Developed new ETL and self-service processes using PL-SQL and other tools, ensuring query performance, all passing technical audits}
+        \resumeItem{Approximately 10\textsuperscript{7} monthly records. Worked in areas such as impairment losses and credit scoring}
+        \resumeItem{Client-facing role, I was part of a team working on the client site everyday}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Data Warehousing Consultant}{2018 -- 2019}
+      {Closer Consulting}{Lisbon, Portugal}
+      \resumeItemListStart
+        \resumeItem{Deployed multiple instances of relational databases to mirror already existing processes, for several clients and usage including inventory management and RH roster}
+        \resumeItem{Designed data models to represent events, entity relationships, and patterns, along with ETL pipelines}
+        \resumeItem{Worked in teams of two to five, with periodic reporting to client}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -150,54 +186,85 @@
 %     \resumeItemListStart
 %        \resumeItem{Apache Beam}
 %          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
+%    \resumeItemListEnd
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 
-    \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
-      \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
-      \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 
+
+%-----------VOLUNTEERING FREELANCE-----------
+\section{Volunteering and Freelance Work}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Public Speaking Trainer}{2022 -- Present}
+      {Level Up Speech $|$ \href{https://lus.fgf.pt/}{\underline{lus.fgf.pt}}}{}
+      \resumeItemListStart
+        \resumeItem{Helping professionals in tech areas develop their communication and leadership skills}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Volunteer}{2018 -- 2023}
+      {Centro Hospitalar Psiquiátrico de Lisboa}{Lisbon, Portugal}
+      \resumeItemListStart
+        \resumeItem{Working with adults with developmental disabilities and cognitive challenges, from just keeping them company to working towards developing technical and social skills}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Club Officer}{2016 -- 2021}
+      {Lisbon Toastmasters Club}{Lisbon, Portugal}
+      \resumeItemListStart
+        \resumeItem{Coordinating and motivating a core team of 10 people}
+        \resumeItem{serving a membership base of 30 to 40 active weekly members and incoming guests with vastly different backgrounds and expectations}
+        \resumeItem{Greeting incoming guests, introducing them to the group and following up}
+      \resumeItemListEnd
+      
+
+
+  \resumeSubHeadingListEnd
+
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {FCUL $|$ Closer Consulting}{Lisbon, Portugal}
+      {Master's Thesis}{2021}
+      \resumeItemListStart
+        \resumeItem{Transformation of complex network geometries into linear spaces using comoving observers}
+        \resumeItem{Available on the \href{http://hdl.handle.net/10451/48508}{FCUL repository}}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Faculdade de Ciências, University of Lisbon}{Lisbon, Portugal}
+      {M.S. in Physics Engineering}{}
+  \resumeSubHeadingListEnd
+
+
 %-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
-          \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-          \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+%\section{Projects}
+%    \resumeSubHeadingListStart
+%      \resumeProjectHeading
+%          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+%          \resumeItemListStart
+%            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+%            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+%            \resumeItem{Visualized GitHub data to show collaboration}
+%            \resumeItem{Used Celery and Redis for asynchronous tasks}
+%          \resumeItemListEnd
+%      \resumeProjectHeading
+%          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%          \resumeItemListStart
+%            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%          \resumeItemListEnd
+%    \resumeSubHeadingListEnd
 
 
 
@@ -206,10 +273,11 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Cloud computing}{: databricks, PySpark, Spark SQL, Azure Data Factory, DevOps, AWS Lambda, Amazon S3} \\
+     \textbf{SQL flavors}{: PL/SQL, T-SQL, SQL Server, PostgreSQL, MySQL, SSIS} \\
+     \textbf{Python tools}{: pandas, numpy, scikit, fb prophet, tensorflow, catboost, matplotlib, sqlalchemy, optuna, Flask} \\
+     \textbf{General computation}{: Verilog, C, C++, Physics, Numerical analysis, Git} \\
+      \textbf{Communication}{: Public Speaking, Active listening, Critical Thinking, Feedback, Mentoring} 
     }}
  \end{itemize}
 
